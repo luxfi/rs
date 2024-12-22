@@ -3,7 +3,7 @@
 [<img alt="docs.rs" src="https://img.shields.io/badge/docs.rs-lux_types-66c2a5?style=for-the-badge&labelColor=555555&logo=docs.rs" height="20">](https://docs.rs/lux-types)
 ![Github Actions](https://github.com/luxfi/lux-rs/actions/workflows/test-and-release.yml/badge.svg)
 
-## LuxGo Compatibility
+## Lux Node Compatibility
 
 | Crate Version(s) | LuxGo Version(s) | Protocol Version |
 | ---------------- | ---------------------- | ---------------- |
@@ -18,13 +18,13 @@
 
 ## Introduction
 
-The `lux-types` crate implements and is the canonical representation of Lux primitive types in Rust.  Lux types are separated by modules and are all under the `src` directory.
+The `lux-rs` crate implements and is the canonical representation of Lux primitive types in Rust.  Lux types are separated by modules and are all under the `src` directory.
 
 This crate also provides an SDK library for developing subnets in Rust. For the SDK functionality, see `src/subnet` which contains everything required to build a subnet VM in Rust.
 
 The following VMs were built with the SDK:
-* Simple Rust VM: [TimestampVM](https://github.com/luxfi/timestampvm-rs)
-* Complex Rust VM: [SpacesVM](https://github.com/luxfi/spacesvm-rs)
+* Simple Rust VM: [TimestampVM](https://github.com/luxfi/timestampvm)
+* Complex Rust VM: [SpacesVM](https://github.com/luxfi/spacesvm)
 
 ## Getting Started
 
@@ -36,13 +36,13 @@ Examples can be found in [`examples`](./examples) and is a good first step to ge
 
 ### Rust Version
 
-`lux-types` currently works on Rust `1.67` and above as it requires support for the 2021 edition. This project uses the stable toolchain.
+`lux-rs` currently works on Rust `1.67` and above as it requires support for the 2021 edition. This project uses the stable toolchain.
 
 ## Getting Help
 
 First please try find the answer to your question in the code documentation. If more clarification is required, try opening an [issue] with the question.
 
-[issue]: https://github.com/luxfi/lux-rs/issues/new
+[issue]: https://github.com/luxfi/rs/issues/new
 
 ## Features
 

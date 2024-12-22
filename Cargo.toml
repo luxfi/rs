@@ -1,13 +1,13 @@
 [package]
-name = "lux-types"
+name = "lux-rs"
 version = "0.0.397" # https://crates.io/crates/lux-types
 edition = "2021"
 rust-version = "1.69" # use "rustup override set stable" to overwrite current toolchain
 publish = true
-description = "Lux primitive types in Rust"
+description = "Lux APIs/VM SDK in Rust"
 license = "BSD-3-Clause"
 homepage = "https://lux.network"
-repository = "https://github.com/luxfi/lux-rs"
+repository = "https://github.com/luxfi/rs"
 readme = "README.md"
 
 [dependencies]
